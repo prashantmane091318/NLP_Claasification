@@ -2,4 +2,3 @@ requests
 numpy
 gunicorn
 flask
-tensorflow==2.8.0rc0
