@@ -8,7 +8,6 @@ Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.6
 pickleshare==0.7.5
-Click==7.0
 request
 flask
 spacy
