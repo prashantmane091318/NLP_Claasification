@@ -14,5 +14,5 @@ cloudpickle==1.2.2
 request
 flask
 spacy
-nltk=3.4.5
+nltk==3.4.5
 tensorflow==1.12.0
