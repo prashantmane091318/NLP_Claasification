@@ -1,5 +1,5 @@
-requests==2.22.0
+requests
 numpy
-gunicorn==19.9.0
-flask==1.1.2
+gunicorn
+flask
 tensorflow==2.8.0rc0
