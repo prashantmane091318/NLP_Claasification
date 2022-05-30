@@ -11,4 +11,4 @@ pickleshare==0.7.5
 flask==1.1.2
 spacy==3.2.1
 nltk==3.4.5
-tensorflow==1.12.0
+tensorflow
