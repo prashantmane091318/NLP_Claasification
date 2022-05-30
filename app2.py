@@ -75,7 +75,7 @@ def fun2():
     Pclass=request.form["PClass"]
     encoder=LabelEncoder()
     encoder.classes_ = np.load('classes1.npy',allow_pickle=True)
-    model = tf.keras.models.load_model('model3')
+    model = tf.keras.models.load_model('simple.h5')
     x11=pd.DataFrame([np.array(Pclass)],columns=["Comments"])
     test_input = bert_encode(x11["Comments"], tokenizer, max_len=max_len)
     ypp=model.predict(test_input)
