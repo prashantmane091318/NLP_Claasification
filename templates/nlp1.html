@@ -8,14 +8,55 @@ Created on Sat May 14 19:24:29 2022
 
 
   
-<head>
-<title>Titanic Survival</title>
-</head>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h1 {
+
+  float: center;
+  display: block;
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px; 
+  height:100px;
+  padding:30px
+}
+
+form {
+float: center;
+  display: flex;
+  
+  justify-content: center
+  width: 900px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  padding:30px
+}
+input {
+float: center;
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+}
+</style>
+<body>
+   <h1>User Comments Classification</h1>
+
+<div class = "review">
 
 <form action="/predict" method="POST">
-<label> PClass</label></br>
+<label> User Comment</label></br>
 <input type="text" name="PClass"><br>
 
 
-<input type="submit" value="value">
+<input type="submit" value="Submit">
 </form>
+</div>
+
+
+</body>
+</html>
