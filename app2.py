@@ -20,9 +20,6 @@ from tensorflow.keras.preprocessing.text import one_hot
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import nltk
 import re
-
-import spacy
-nlp = spacy.load("en_core_web_sm")
 import numpy as np
 #import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
