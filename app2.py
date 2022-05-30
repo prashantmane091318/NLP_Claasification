@@ -46,9 +46,7 @@ vocab_file = bert_layer.resolved_object.vocab_file.asset_path.numpy()
 do_lower_case = bert_layer.resolved_object.do_lower_case.numpy()
 tokenizer = BertTokenizer(vocab_file, do_lower_case)
 
-@app.route('/home')
-def home():
-    return render_template('nlp1.html')
+
 
 def bert_encode(texts, tokenizer, max_len=512):
     all_tokens = []
